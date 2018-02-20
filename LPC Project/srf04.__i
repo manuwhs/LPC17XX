@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork --ASM -I "C:\Keil\ARM\CMSIS\Include" -I "C:\Keil\ARM\INC\NXP\LPC17xx" -o "srf04.o" --omf_browse "srf04.crf" --depend "srf04.d" "SRF04\SRF04.c"

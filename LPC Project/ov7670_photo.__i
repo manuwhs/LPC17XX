@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork --ASM -I "C:\Keil\ARM\CMSIS\Include" -I "C:\Keil\ARM\INC\NXP\LPC17xx" -o "ov7670_photo.o" --omf_browse "ov7670_photo.crf" --depend "ov7670_photo.d" "OV7670\OV7670_photo.c"

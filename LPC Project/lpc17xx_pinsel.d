@@ -1,0 +1,9 @@
+lpc17xx_pinsel.o: lpc17xx_pinsel.c
+lpc17xx_pinsel.o: lpc17xx_pinsel.h
+lpc17xx_pinsel.o: lpc17xx.h
+lpc17xx_pinsel.o: C:\Keil\ARM\CMSIS\Include\core_cm3.h
+lpc17xx_pinsel.o: C:\Keil\ARM\RV31\INC\stdint.h
+lpc17xx_pinsel.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+lpc17xx_pinsel.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+lpc17xx_pinsel.o: C:\Keil\ARM\INC\NXP\LPC17xx\system_LPC17xx.h
+lpc17xx_pinsel.o: lpc_types.h

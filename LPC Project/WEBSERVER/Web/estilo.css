@@ -1,0 +1,21 @@
+.lleno {
+	position:absolute;
+	border:1px black solid;	
+	background: yellow;
+}
+.vacio {
+	position:absolute;
+	border:1px black solid;	
+	background: black;
+}
+.coord {
+	width:40px;
+}
+#screen {
+	position:absolute;
+	left: 200px;
+	top:150px;
+	width:320px;
+	height:240px;
+	border:1px black solid;	
+}	

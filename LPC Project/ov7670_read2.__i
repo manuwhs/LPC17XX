@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork --ASM -I "C:\Keil\ARM\CMSIS\Include" -I "C:\Keil\ARM\INC\NXP\LPC17xx" -o "ov7670_read2.o" --omf_browse "ov7670_read2.crf" --depend "ov7670_read2.d" "OV7670\OV7670_read2.c"

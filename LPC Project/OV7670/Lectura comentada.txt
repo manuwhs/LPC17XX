@@ -1,0 +1,119 @@
+void read_frame_RGB565 (void) {
+	 uint32_t i=0;
+	 uint16_t  pixel_RGB565=0x00;
+	  // Indicate we are reading an image:
+	  // Reset the Read Pointer
+
+	  LPC_GPIO0->FIOMASK &= ~ (1 << 29);	   /* UNMASKING  RRCK*/
+	  LPC_GPIO0->FIOMASK &= ~ (1 << 30);	   /* UNMASKING WEN*/
+   	  LPC_GPIO0->FIOMASK &= ~ (1 << 24);	   /* UNMASKING RCLK*/	/* Por algun motivo mejora el tiempo en 1,25 ms */
+
+	  LPC_GPIO0->FIOCLR |= (1 << 29);	 // Set RCLK to 0
+	  LPC_GPIO0->FIOSET |= (1 << 24);  //  Set RCK to 1 
+	  LPC_GPIO0->FIOCLR |= (1 << 24);	 //  Set RCLK to 0 
+	  LPC_GPIO0->FIOSET |= (1 << 24);  //  Set RCK to 1 
+	  LPC_GPIO0->FIOCLR |= (1 << 24);	 //  Set RCLK to 0 
+  	  LPC_GPIO0->FIOSET |= (1 << 24);  //  Set RCK to 1 
+	  LPC_GPIO0->FIOSET |= (1 << 29);  //  Set RCLK to 1 
+
+	//   LPC_GPIO0->FIOCLR |= (1 << 30); /* Make pin LOW to disable FIFO write */
+
+	  LPC_GPIO0->FIOMASK |=  1 << 29;	   /* MASKING  */
+	  LPC_GPIO0->FIOMASK |=  1 << 30;	   /* MASKING */
+
+	  num_frame += 1;		/* Por algun motivo mejora el tiempo en 1,25 ms */
+	  fps_aux ++;
+
+
+
+	 // while (i <100000){i++;}
+	 // i = 0;
+
+	  while( i < 76800) {   /* Cambiar "for" por "while" mejora en tiempo en 0.8 ms 	*/
+	  /* Writing the number of iteration directy instead of using variables speeds this up
+	   by 1ms coz it doesnt have to calculate the values every time */
+	   /* Quitar el bucle de dos bytes y reescribir el codigo 2 veces bien --> de 125 ms a 90 ms */
+			 	LPC_GPIO0->FIOSET |= (1 << 24);  /* Set RCK to 1 */
+				pixel_RGB565 = (((LPC_GPIO1->FIOPIN >> 18) & 0xFF) << 8);	// D[0-7] 	 	P1.18-25
+				LPC_GPIO0->FIOCLR |= (1 << 24);	   /* Set RCK to 0 */
+	
+				LPC_GPIO0->FIOSET |= (1 << 24);  /* Set RCK to 1 */
+				pixel_RGB565 |= (((LPC_GPIO1->FIOPIN >> 18) & 0xFF) << 0);	// D[0-7] 	 	P1.18-25
+				/* LA siguiente linea de abajo la podemos quitar siempre y cuando  las siguiente
+				funicones lo pongan a 0 y optimiza 4 ms 88 -> 84*/
+
+	/* if ((cd_R - ((color_detect >> 11) & RED_MASK))  < 10){
+	 if ((cd_G - ((color_detect >> 5) & GREEN_MASK)) < 10){
+	 if ((cd_B - ((color_detect >> 0) & BLUE_MASK))  < 10) {
+		   pixel_RGB565 = 0x0;
+	 		}
+	 	}
+	 }
+	*/
+	// pixel_RGB565 = color_detect;
+//	Esta al reves de lo que deberia porque al hacer la operacion de set_pointer, por algun motivo
+// coje los bytes al reves. Posible pérdida del byte inicial 
+
+	 /* Vamos a intentar optimizar esta mierda por lo que usaremos directamente las cosas sin abstracciones
+	 de funciones --> DE 84 a 58 ms !! Ademas ha desaparecido la mierda de raya !!! */
+
+	 // WRITE INDEX
+	LPC_GPIO2->FIOCLR = PIN_CS;
+	LPC_GPIO1->FIOCLR = PIN_RS |PIN_RD;	   /* Quita 2 ms si unimos !!*/
+	//1LPC_GPIO1->FIOCLR = PIN_RD;
+
+   	LPC_GPIO2->FIOPIN =  0x0022 & 0x000000ff;        /* Write D0..D7 */
+	LPC_GPIO0->FIOPIN =  (0x0022 << 7) & 0x007F8000; /* Write D8..D15 */
+
+	LPC_GPIO1->FIOCLR = PIN_WR;
+	LPC_GPIO1->FIOSET = PIN_WR;
+	LPC_GPIO2->FIOCLR = PIN_CS;
+
+	// WRITE DATA
+
+	LPC_GPIO2->FIOCLR = PIN_CS;
+	LPC_GPIO1->FIOSET = PIN_RS;
+
+	LPC_GPIO2->FIOPIN =  pixel_RGB565 & 0x000000ff;        /* Write D0..D7 */
+	LPC_GPIO0->FIOPIN =  (pixel_RGB565 << 7) & 0x007F8000; /* Write D8..D15 */
+
+	LPC_GPIO1->FIOCLR = PIN_WR;
+	LPC_GPIO1->FIOSET = PIN_WR;
+	LPC_GPIO2->FIOCLR = PIN_CS;
+
+	//conversor_IaS(pixel_RGB565, delay_read);
+	// tx_cadena_UART0(delay_read, buffer_tx[0], &tx_completa, &pos_cadena);		//Retorno de carro
+				 
+	  i++;	
+	 }
+	 /* Los primeros bits de la imagen pare que estan un frame retrasados, por que ? 
+	 Cambiar a deteccion de flanco de subida ? No, sigue igual*/
+	 /* Cuanto mas rapido vamos, mas se agranda esa zona atrasada. 
+	 Pertenecerá al frame que no estamos leyendo ? Vamos a reducir los pixels que leemos para ver
+	 No... no pertence al frame perdido y debe estar como 3 o 4 frames atrasados... tendra que ver
+	 con el reset de lectura inicial ?	 No, lo ponemos al final y lo mismo...
+	 Si ponemos un delay inicial, desaparece la franja..
+
+	 */
+	  conversor_IaS(fps, delay_read);
+	  GUI_Text(30, 100,delay_read,0, 0xFFFF);
+
+	  frame_read_delay_us = get_timer1()- frame_read_delay_us;
+	  conversor_IaS(frame_read_delay_us, delay_read);
+	  GUI_Text(30, 200,delay_read,0, 0xFFFF);
+
+	  /* Todo el programa exeptuando el bucle tarda solo 850 microsegundos */
+ //	  LPC_GPIO0->FIOMASK &= ~ (1 << 30);	   /* UNMASKING WEN*/
+//	  LPC_GPIO0->FIOSET |= (1 << 30); /* Make pin LOW to disable FIFO write */
+//	  LPC_GPIO0->FIOMASK |=  1 << 30;	   /* MASKING */
+	 /* Si no podemos leer tan rapido como nos dan las imagenes, perderemos como minimo la mitad
+	 ya que cuando acabamos una, quitamos la atencion a la interrupcion y tenemos que esperar a la siguiente */
+
+     LCD_SetCursor(0,0);		/* Set the cursor to (0,0) */
+
+	  /* Get the color to detect */
+	  // color_detect = LCD_GetPoint(160,120);
+	  cd_R = (color_detect >> 11) & RED_MASK;
+	  cd_G = (color_detect >> 5) & GREEN_MASK;
+	  cd_B = (color_detect >> 0) & BLUE_MASK;
+}

@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork --ASM -I "C:\Keil\ARM\CMSIS\Include" -I "C:\Keil\ARM\INC\NXP\LPC17xx" -o "lpc17xx_libcfg_default.o" --omf_browse "lpc17xx_libcfg_default.crf" --depend "lpc17xx_libcfg_default.d" "lpc17xx_libcfg_default.c"

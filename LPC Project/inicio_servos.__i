@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork --ASM -I "C:\Keil\ARM\CMSIS\Include" -I "C:\Keil\ARM\INC\NXP\LPC17xx" -o "inicio_servos.o" --omf_browse "inicio_servos.crf" --depend "inicio_servos.d" "SERVOS\Inicio_servos.c"

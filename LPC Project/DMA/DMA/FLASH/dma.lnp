@@ -1,0 +1,4 @@
+--cpu Cortex-M3 ".\flash\startup_lpc17xx.o" ".\flash\system_lpc17xx.o" ".\flash\dma.o" ".\flash\dmatest.o" --strict --scatter ".\FLASH\dma.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\FLASH\dma.map" -o ".\FLASH\dma.axf"

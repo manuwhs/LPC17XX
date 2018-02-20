@@ -1,0 +1,4 @@
+--cpu Cortex-M3 "system_lpc17xx.o" "startup_lpc17xx.o" "main.o" "asciilib.o" "glcd.o" "touchpanel.o" "lpc17xx_gpio.o" "lpc17xx_libcfg_default.o" "lpc17xx_pinsel.o" "lpc17xx_clkpwr.o" "lpc17xx_ssp.o" "i2c.o" "ov7670.o" "ov7670_read.o" "ov7670_read2.o" "ov7670_detect.o" "ov7670_detect2.o" "calibration.o" "ov7670_photo.o" "uart.o" "uart_interrup.o" "timer.o" "timer_interrupt.o" "interrupciones.o" "herramientas.o" "srf04.o" "dac.o" "dma.o" "statemachine.o" "states.o" "emac_lpc17xx_100mb.o" "http_cgi.o" "http_demo.o" "net_config.o" "web.o" ".\WEBSERVER\Configuration_files\TCP_CM3.lib" "caramels.o" "games.o" "ov7670_detect_games.o" "sounds.o" "funciones_servos.o" "inicio_servos.o" "interrupciones_servos.o" --strict --scatter "pruebas.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\pruebas.map" -o "pruebas.axf"

@@ -1,0 +1,61 @@
+*** Creating Trace Output File 'pruebas.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"system_lpc17xx.o"'
+### List of Objects: adding '"startup_lpc17xx.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"asciilib.o"'
+### List of Objects: adding '"glcd.o"'
+### List of Objects: adding '"touchpanel.o"'
+### List of Objects: adding '"lpc17xx_gpio.o"'
+### List of Objects: adding '"lpc17xx_libcfg_default.o"'
+### List of Objects: adding '"lpc17xx_pinsel.o"'
+### List of Objects: adding '"lpc17xx_clkpwr.o"'
+### List of Objects: adding '"lpc17xx_ssp.o"'
+### List of Objects: adding '"i2c.o"'
+### List of Objects: adding '"ov7670.o"'
+### List of Objects: adding '"ov7670_read.o"'
+### List of Objects: adding '"ov7670_read2.o"'
+### List of Objects: adding '"ov7670_detect.o"'
+### List of Objects: adding '"ov7670_detect2.o"'
+### List of Objects: adding '"calibration.o"'
+### List of Objects: adding '"ov7670_photo.o"'
+### List of Objects: adding '"uart.o"'
+### List of Objects: adding '"uart_interrup.o"'
+### List of Objects: adding '"timer.o"'
+### List of Objects: adding '"timer_interrupt.o"'
+### List of Objects: adding '"interrupciones.o"'
+### List of Objects: adding '"herramientas.o"'
+### List of Objects: adding '"srf04.o"'
+### List of Objects: adding '"dac.o"'
+### List of Objects: adding '"dma.o"'
+### List of Objects: adding '"statemachine.o"'
+### List of Objects: adding '"states.o"'
+### List of Objects: adding '"emac_lpc17xx_100mb.o"'
+### List of Objects: adding '"http_cgi.o"'
+### List of Objects: adding '"http_demo.o"'
+### List of Objects: adding '"net_config.o"'
+### List of Objects: adding '"web.o"'
+### List of Objects: adding '".\WEBSERVER\Configuration_files\TCP_CM3.lib"'
+### List of Objects: adding '"caramels.o"'
+### List of Objects: adding '"games.o"'
+### List of Objects: adding '"ov7670_detect_games.o"'
+### List of Objects: adding '"sounds.o"'
+### List of Objects: adding '"funciones_servos.o"'
+### List of Objects: adding '"inicio_servos.o"'
+### List of Objects: adding '"interrupciones_servos.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "system_lpc17xx.o" "startup_lpc17xx.o" "main.o" "asciilib.o" "glcd.o" "touchpanel.o" "lpc17xx_gpio.o" "lpc17xx_libcfg_default.o" "lpc17xx_pinsel.o" "lpc17xx_clkpwr.o" "lpc17xx_ssp.o" "i2c.o" "ov7670.o" "ov7670_read.o" "ov7670_read2.o" "ov7670_detect.o" "ov7670_detect2.o" "calibration.o" "ov7670_photo.o" "uart.o" "uart_interrup.o" "timer.o" "timer_interrupt.o" "interrupciones.o" "herramientas.o" "srf04.o" "dac.o" "dma.o" "statemachine.o" "states.o" "emac_lpc17xx_100mb.o" "http_cgi.o" "http_demo.o" "net_config.o" "web.o" ".\WEBSERVER\Configuration_files\TCP_CM3.lib" "caramels.o" "games.o" "ov7670_detect_games.o" "sounds.o" "funciones_servos.o" "inicio_servos.o" "interrupciones_servos.o" --strict --scatter "pruebas.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\pruebas.map" -o "pruebas.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'pruebas.axf'
+### ADS-LD Command File: 'pruebas.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'pruebas.lnp', Handle=0x00000394
+### Writing '.lnp' file
+### ADS-LD Command file 'pruebas.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork --ASM -I "C:\Keil\ARM\CMSIS\Include" -I "C:\Keil\ARM\INC\NXP\LPC17xx" -o "herramientas.o" --omf_browse "herramientas.crf" --depend "herramientas.d" "herramientas\herramientas.c"

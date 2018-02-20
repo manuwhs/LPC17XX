@@ -1,0 +1,13 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\manuel\Desktop\Camara-Pantalla-manu\DMA\DAC\dac.uvproj
+Project File Date:  01/06/2011
+
+<h2>Output:</h2>
+Build target 'FLASH'
+assembling startup_LPC17xx.s...
+startup_LPC17xx.s: error: A1023E: File "..\common\src\startup_LPC17xx.s" could not be opened: No such file or directory
+Target not created

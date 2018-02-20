@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork --ASM -I "C:\Keil\ARM\CMSIS\Include" -I "C:\Keil\ARM\INC\NXP\LPC17xx" -o "interrupciones_servos.o" --omf_browse "interrupciones_servos.crf" --depend "interrupciones_servos.d" "SERVOS\interrupciones_servos.c"

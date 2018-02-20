@@ -1,0 +1,10 @@
+dma.o: DMA\dma.c
+dma.o: C:\Keil\ARM\INC\NXP\LPC17xx\LPC17xx.h
+dma.o: C:\Keil\ARM\CMSIS\Include\core_cm3.h
+dma.o: C:\Keil\ARM\RV31\INC\stdint.h
+dma.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+dma.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+dma.o: C:\Keil\ARM\INC\NXP\LPC17xx\system_LPC17xx.h
+dma.o: DMA\../DAC/dac.h
+dma.o: DMA\dma.h
+dma.o: DMA\../UART/uart.h

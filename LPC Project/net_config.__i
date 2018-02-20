@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork --ASM -I "C:\Keil\ARM\CMSIS\Include" -I "C:\Keil\ARM\INC\NXP\LPC17xx" -o "net_config.o" --omf_browse "net_config.crf" --depend "net_config.d" "WEBSERVER\Configuration_files\Net_Config.c"

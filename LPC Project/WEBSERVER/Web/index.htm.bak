@@ -1,0 +1,35 @@
+  <head>
+    <meta content="text/html; charset=windows-1252" http-equiv="content-type">
+    <title>uah</title>
+  </head>
+  <body style="        background-color: white;">
+    <div id="contenedor">
+      <div id="titulo" style="background-color:slateblue;">
+        <h1 style="margin-bottom: 0px; background-color:SlateBlue;color:white;text-align:center;">WEB loop</h1>
+      </div>
+      <div id="menu" style="background-color:orange;width:25%;height:25px;float:left;">
+        <b style="color:purple;text-align:center"><a href="/prueba.cgi">Escribe en
+            pantalla</a></b>
+            <b><a href="/prueba2.cgi">Parametros de la camara</a></b> </div>
+      <div id="informacion" style="background-color:darkorange; color:blue; height: 25px; width:75%; float: left;">Información:</div>
+      <div id="datos de la estacion" style="background-color:blue; height: 250px; width: 50%; float: left;">
+        <h1 style="color:darkorange;text-align:center;font-size:150%;;">Datos de
+          la Universidad</h1>
+        <ul style="color:white">
+          <li>Country: Spain</li>
+          <li>City: Alcalá de Henares</li>
+          <li>Location: 40.514223,-3.348577</li>
+        </ul>
+      </div>
+      <div id="autores" style="background-color:blue; height: 250px; width: 50%; float: left;">
+        <h1 style="color:darkorange;text-align:center;font-size:150%;;">Datos de los autores</h1>
+        <br>Manuel Montoya Catala
+        <br>Miguel Angel Giraldo
+        <br>Maria Paz Gonzalez
+        <br>Andres Beato Ollero
+      </div>
+      <div id="pie" style="background-color:slateblue;color:white;text-align:center;">
+        <span style="font-weight: bold;">Universidad de Alcalá</span> </div>
+    </div>
+  </body>
+</html>

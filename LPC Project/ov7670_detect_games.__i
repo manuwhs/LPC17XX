@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork --ASM -I "C:\Keil\ARM\CMSIS\Include" -I "C:\Keil\ARM\INC\NXP\LPC17xx" -o "ov7670_detect_games.o" --omf_browse "ov7670_detect_games.crf" --depend "ov7670_detect_games.d" "GAMES\OV7670_detect_games.c"

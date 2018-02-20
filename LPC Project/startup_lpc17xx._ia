@@ -1,0 +1,1 @@
+--cpu Cortex-M3 -g --apcs=interwork -I "C:\Keil\ARM\CMSIS\Include" -I "C:\Keil\ARM\INC\NXP\LPC17xx" --list "startup_LPC17xx.lst" --xref -o "startup_LPC17xx.o" --depend "startup_LPC17xx.d" "startup_LPC17xx.s"

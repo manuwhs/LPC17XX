@@ -1,0 +1,1684 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\manuel\Desktop\Camara-Pantalla-manu\pruebas.uvproj
+Project File Date:  01/29/2014
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling system_LPC17xx.c...
+assembling startup_LPC17xx.s...
+compiling main.c...
+main.c(26): warning:  #177-D: variable "j" was declared but never referenced
+compiling AsciiLib.c...
+compiling GLCD.c...
+GLCD\GLCD.c(219): warning:  #177-D: function "LCD_ReadReg" was declared but never referenced
+compiling TouchPanel.c...
+Touch_Pannel\TouchPanel.c(349): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+Touch_Pannel\TouchPanel.c(480): warning:  #223-D: function "abs" declared implicitly
+Touch_Pannel\TouchPanel.c(483): warning:  #223-D: function "abs" declared implicitly
+Touch_Pannel\TouchPanel.c(754): warning:  #177-D: variable "i" was declared but never referenced
+Touch_Pannel\TouchPanel.c(807): warning:  #223-D: function "DMA_DAC_audio_Channel_Init" declared implicitly
+compiling lpc17xx_gpio.c...
+compiling lpc17xx_libcfg_default.c...
+compiling lpc17xx_pinsel.c...
+compiling lpc17xx_clkpwr.c...
+compiling lpc17xx_ssp.c...
+compiling I2C.c...
+compiling OV7670.c...
+OV7670\OV7670.c(347): warning:  #223-D: function "getOV7670_RGBgain" declared implicitly
+OV7670\OV7670.c(349): warning:  #223-D: function "getOV7670_BriConLum" declared implicitly
+compiling OV7670_read.c...
+OV7670\OV7670_read.c(306): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling OV7670_read2.c...
+OV7670\OV7670_read2.c(270): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+OV7670\OV7670_read2.c(274): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+OV7670\OV7670_read2.c(277): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling OV7670_detect.c...
+OV7670\OV7670_detect.c(99): warning:  #223-D: function "abs" declared implicitly
+OV7670\OV7670_detect.c(569): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+OV7670\OV7670_detect.c(585): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+OV7670\OV7670_detect.c(589): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+OV7670\OV7670_detect.c(694): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling OV7670_detect2.c...
+OV7670\OV7670_detect2.c(195): warning:  #223-D: function "abs" declared implicitly
+OV7670\OV7670_detect2.c(663): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+OV7670\OV7670_detect2.c(680): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+OV7670\OV7670_detect2.c(684): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling calibration.c...
+OV7670\calibration.c(425): warning:  #186-D: pointless comparison of unsigned integer with zero
+compiling OV7670_photo.c...
+OV7670\OV7670_photo.c(230): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling uart.c...
+UART\uart.c(203): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(210): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(216): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(222): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(234): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(239): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(247): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(251): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(258): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(264): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(270): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(275): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(279): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(283): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(287): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(292): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(296): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(300): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(304): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(310): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(316): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(325): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(332): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(338): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(348): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(352): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(186): warning:  #177-D: variable "i" was declared but never referenced
+compiling UART_interrup.c...
+compiling Timer.c...
+compiling Timer_interrupt.c...
+TIMER\Timer_interrupt.c(36): warning:  #223-D: function "WDTFeed" declared implicitly
+compiling interrupciones.c...
+OV7670\interrupciones.c(18): warning:  #223-D: function "get_timer1" declared implicitly
+OV7670\interrupciones.c(32): warning:  #223-D: function "Detect_for_games" declared implicitly
+compiling herramientas.c...
+herramientas\herramientas.c(62): warning:  #940-D: missing return statement at end of non-void function "conversor_HexaS"
+compiling SRF04.c...
+compiling dac.c...
+DAC\dac.c(126): warning:  #1-D: last line of file ends without a newline
+compiling dma.c...
+compiling StateMachine.c...
+State_Machine\StateMachine.c(132): warning:  #1-D: last line of file ends without a newline
+compiling States.c...
+State_Machine\States.c(787): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(812): warning:  #223-D: function "getOV7670_BriConLum" declared implicitly
+State_Machine\States.c(872): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(955): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(981): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(1028): warning:  #223-D: function "getOV7670_RGBgain" declared implicitly
+State_Machine\States.c(1087): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(1181): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1185): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1189): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1193): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1197): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1201): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1205): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1209): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling EMAC_LPC17xx_100Mb.c...
+compiling HTTP_CGI.c...
+WEBSERVER\Configuration_files\HTTP_CGI.c(118): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(127): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(137): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(146): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(155): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(164): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(173): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(182): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(191): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(196): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(205): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(217): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(224): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(230): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(274): warning:  #177-D: variable "adv" was declared but never referenced
+WEBSERVER\Configuration_files\HTTP_CGI.c(60): warning:  #177-D: variable "P2" was declared but never referenced
+compiling HTTP_demo.c...
+compiling Net_Config.c...
+custom translating Web.inp...
+Custom: C:\Keil\ARM\bin\fcarm @WEBSERVER\Web\Web.inp
+FCARM FILE CONVERTER V2.31
+Completed 5 File(s), Ratio 81%
+compiling Web.c...
+compiling caramels.c...
+compiling GAMES.c...
+GAMES\GAMES.c(163): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(165): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(240): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(244): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(321): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(324): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(309): warning:  #177-D: variable "j" was declared but never referenced
+GAMES\GAMES.c(645): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+GAMES\GAMES.c(645): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(651): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(735): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(907): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(624): warning:  #177-D: variable "position" was declared but never referenced
+compiling OV7670_detect_games.c...
+GAMES\OV7670_detect_games.c(102): warning:  #223-D: function "abs" declared implicitly
+compiling sounds.c...
+GAMES\sounds.c(276): warning:  #1-D: last line of file ends without a newline
+compiling funciones_servos.c...
+SERVOS\funciones_servos.c(45): warning:  #61-D: integer operation result is out of range
+SERVOS\funciones_servos.c(45): warning:  #68-D: integer conversion resulted in a change of sign
+SERVOS\funciones_servos.c(47): warning:  #61-D: integer operation result is out of range
+SERVOS\funciones_servos.c(49): warning:  #61-D: integer operation result is out of range
+SERVOS\funciones_servos.c(49): warning:  #68-D: integer conversion resulted in a change of sign
+compiling Inicio_servos.c...
+compiling interrupciones_servos.c...
+linking...
+pruebas.axf: Error: L6218E: Undefined symbol WDTFeed (referred from timer_interrupt.o).
+Target not created
+Build target 'Target 1'
+compiling system_LPC17xx.c...
+assembling startup_LPC17xx.s...
+compiling main.c...
+main.c(26): warning:  #177-D: variable "j" was declared but never referenced
+compiling AsciiLib.c...
+compiling GLCD.c...
+GLCD\GLCD.c(219): warning:  #177-D: function "LCD_ReadReg" was declared but never referenced
+compiling TouchPanel.c...
+Touch_Pannel\TouchPanel.c(349): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+Touch_Pannel\TouchPanel.c(480): warning:  #223-D: function "abs" declared implicitly
+Touch_Pannel\TouchPanel.c(483): warning:  #223-D: function "abs" declared implicitly
+Touch_Pannel\TouchPanel.c(754): warning:  #177-D: variable "i" was declared but never referenced
+Touch_Pannel\TouchPanel.c(807): warning:  #223-D: function "DMA_DAC_audio_Channel_Init" declared implicitly
+compiling lpc17xx_gpio.c...
+compiling lpc17xx_libcfg_default.c...
+compiling lpc17xx_pinsel.c...
+compiling lpc17xx_clkpwr.c...
+compiling lpc17xx_ssp.c...
+compiling I2C.c...
+compiling OV7670.c...
+OV7670\OV7670.c(347): warning:  #223-D: function "getOV7670_RGBgain" declared implicitly
+OV7670\OV7670.c(349): warning:  #223-D: function "getOV7670_BriConLum" declared implicitly
+compiling OV7670_read.c...
+OV7670\OV7670_read.c(306): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling OV7670_read2.c...
+OV7670\OV7670_read2.c(270): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+OV7670\OV7670_read2.c(274): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+OV7670\OV7670_read2.c(277): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling OV7670_detect.c...
+OV7670\OV7670_detect.c(99): warning:  #223-D: function "abs" declared implicitly
+OV7670\OV7670_detect.c(569): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+OV7670\OV7670_detect.c(585): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+OV7670\OV7670_detect.c(589): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+OV7670\OV7670_detect.c(694): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling OV7670_detect2.c...
+OV7670\OV7670_detect2.c(195): warning:  #223-D: function "abs" declared implicitly
+OV7670\OV7670_detect2.c(663): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+OV7670\OV7670_detect2.c(680): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+OV7670\OV7670_detect2.c(684): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling calibration.c...
+OV7670\calibration.c(425): warning:  #186-D: pointless comparison of unsigned integer with zero
+compiling OV7670_photo.c...
+OV7670\OV7670_photo.c(230): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling uart.c...
+UART\uart.c(203): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(210): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(216): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(222): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(234): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(239): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(247): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(251): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(258): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(264): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(270): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(275): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(279): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(283): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(287): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(292): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(296): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(300): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(304): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(310): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(316): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(325): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(332): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(338): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(348): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(352): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(186): warning:  #177-D: variable "i" was declared but never referenced
+compiling UART_interrup.c...
+compiling Timer.c...
+compiling Timer_interrupt.c...
+compiling interrupciones.c...
+OV7670\interrupciones.c(18): warning:  #223-D: function "get_timer1" declared implicitly
+OV7670\interrupciones.c(32): warning:  #223-D: function "Detect_for_games" declared implicitly
+compiling herramientas.c...
+herramientas\herramientas.c(62): warning:  #940-D: missing return statement at end of non-void function "conversor_HexaS"
+compiling SRF04.c...
+compiling dac.c...
+DAC\dac.c(126): warning:  #1-D: last line of file ends without a newline
+compiling dma.c...
+compiling StateMachine.c...
+State_Machine\StateMachine.c(132): warning:  #1-D: last line of file ends without a newline
+compiling States.c...
+State_Machine\States.c(787): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(812): warning:  #223-D: function "getOV7670_BriConLum" declared implicitly
+State_Machine\States.c(872): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(955): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(981): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(1028): warning:  #223-D: function "getOV7670_RGBgain" declared implicitly
+State_Machine\States.c(1087): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(1181): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1185): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1189): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1193): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1197): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1201): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1205): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1209): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling EMAC_LPC17xx_100Mb.c...
+compiling HTTP_CGI.c...
+WEBSERVER\Configuration_files\HTTP_CGI.c(118): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(127): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(137): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(146): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(155): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(164): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(173): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(182): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(191): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(196): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(205): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(217): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(224): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(230): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(274): warning:  #177-D: variable "adv" was declared but never referenced
+WEBSERVER\Configuration_files\HTTP_CGI.c(60): warning:  #177-D: variable "P2" was declared but never referenced
+compiling HTTP_demo.c...
+compiling Net_Config.c...
+custom translating Web.inp...
+Custom: C:\Keil\ARM\bin\fcarm @WEBSERVER\Web\Web.inp
+FCARM FILE CONVERTER V2.31
+Completed 5 File(s), Ratio 81%
+compiling Web.c...
+compiling caramels.c...
+compiling GAMES.c...
+GAMES\GAMES.c(163): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(165): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(240): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(244): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(321): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(324): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(309): warning:  #177-D: variable "j" was declared but never referenced
+GAMES\GAMES.c(645): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+GAMES\GAMES.c(645): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(651): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(735): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(907): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(624): warning:  #177-D: variable "position" was declared but never referenced
+compiling OV7670_detect_games.c...
+GAMES\OV7670_detect_games.c(102): warning:  #223-D: function "abs" declared implicitly
+compiling sounds.c...
+GAMES\sounds.c(276): warning:  #1-D: last line of file ends without a newline
+compiling funciones_servos.c...
+SERVOS\funciones_servos.c(45): warning:  #61-D: integer operation result is out of range
+SERVOS\funciones_servos.c(45): warning:  #68-D: integer conversion resulted in a change of sign
+SERVOS\funciones_servos.c(47): warning:  #61-D: integer operation result is out of range
+SERVOS\funciones_servos.c(49): warning:  #61-D: integer operation result is out of range
+SERVOS\funciones_servos.c(49): warning:  #68-D: integer conversion resulted in a change of sign
+compiling Inicio_servos.c...
+compiling interrupciones_servos.c...
+linking...
+Program Size: Code=100362 RO-data=28606 RW-data=732 ZI-data=30980  
+FromELF: creating hex file...
+"pruebas.axf" - 0 Error(s), 107 Warning(s).
+Build target 'Target 1'
+compiling system_LPC17xx.c...
+assembling startup_LPC17xx.s...
+compiling main.c...
+main.c(26): warning:  #177-D: variable "j" was declared but never referenced
+compiling AsciiLib.c...
+compiling GLCD.c...
+GLCD\GLCD.c(219): warning:  #177-D: function "LCD_ReadReg" was declared but never referenced
+compiling TouchPanel.c...
+Touch_Pannel\TouchPanel.c(349): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+Touch_Pannel\TouchPanel.c(480): warning:  #223-D: function "abs" declared implicitly
+Touch_Pannel\TouchPanel.c(483): warning:  #223-D: function "abs" declared implicitly
+Touch_Pannel\TouchPanel.c(754): warning:  #177-D: variable "i" was declared but never referenced
+Touch_Pannel\TouchPanel.c(807): warning:  #223-D: function "DMA_DAC_audio_Channel_Init" declared implicitly
+compiling lpc17xx_gpio.c...
+compiling lpc17xx_libcfg_default.c...
+compiling lpc17xx_pinsel.c...
+compiling lpc17xx_clkpwr.c...
+compiling lpc17xx_ssp.c...
+compiling I2C.c...
+compiling OV7670.c...
+OV7670\OV7670.c(347): warning:  #223-D: function "getOV7670_RGBgain" declared implicitly
+OV7670\OV7670.c(349): warning:  #223-D: function "getOV7670_BriConLum" declared implicitly
+compiling OV7670_read.c...
+OV7670\OV7670_read.c(306): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling OV7670_read2.c...
+OV7670\OV7670_read2.c(270): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+OV7670\OV7670_read2.c(274): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+OV7670\OV7670_read2.c(277): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling OV7670_detect.c...
+OV7670\OV7670_detect.c(99): warning:  #223-D: function "abs" declared implicitly
+OV7670\OV7670_detect.c(569): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+OV7670\OV7670_detect.c(585): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+OV7670\OV7670_detect.c(589): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+OV7670\OV7670_detect.c(694): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling OV7670_detect2.c...
+OV7670\OV7670_detect2.c(195): warning:  #223-D: function "abs" declared implicitly
+OV7670\OV7670_detect2.c(663): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+OV7670\OV7670_detect2.c(680): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+OV7670\OV7670_detect2.c(684): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling calibration.c...
+OV7670\calibration.c(425): warning:  #186-D: pointless comparison of unsigned integer with zero
+compiling OV7670_photo.c...
+OV7670\OV7670_photo.c(230): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling uart.c...
+UART\uart.c(203): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(210): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(216): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(222): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(234): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(239): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(247): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(251): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(258): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(264): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(270): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(275): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(279): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(283): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(287): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(292): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(296): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(300): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(304): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(310): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(316): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(325): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(332): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(338): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(348): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(352): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(186): warning:  #177-D: variable "i" was declared but never referenced
+compiling UART_interrup.c...
+compiling Timer.c...
+compiling Timer_interrupt.c...
+compiling interrupciones.c...
+OV7670\interrupciones.c(18): warning:  #223-D: function "get_timer1" declared implicitly
+OV7670\interrupciones.c(32): warning:  #223-D: function "Detect_for_games" declared implicitly
+compiling herramientas.c...
+herramientas\herramientas.c(62): warning:  #940-D: missing return statement at end of non-void function "conversor_HexaS"
+compiling SRF04.c...
+compiling dac.c...
+DAC\dac.c(126): warning:  #1-D: last line of file ends without a newline
+compiling dma.c...
+compiling StateMachine.c...
+State_Machine\StateMachine.c(132): warning:  #1-D: last line of file ends without a newline
+compiling States.c...
+State_Machine\States.c(787): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(812): warning:  #223-D: function "getOV7670_BriConLum" declared implicitly
+State_Machine\States.c(872): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(955): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(981): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(1028): warning:  #223-D: function "getOV7670_RGBgain" declared implicitly
+State_Machine\States.c(1087): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(1181): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1185): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1189): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1193): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1197): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1201): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1205): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1209): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling EMAC_LPC17xx_100Mb.c...
+compiling HTTP_CGI.c...
+WEBSERVER\Configuration_files\HTTP_CGI.c(118): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(127): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(137): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(146): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(155): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(164): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(173): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(182): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(191): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(196): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(205): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(217): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(224): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(230): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(274): warning:  #177-D: variable "adv" was declared but never referenced
+WEBSERVER\Configuration_files\HTTP_CGI.c(60): warning:  #177-D: variable "P2" was declared but never referenced
+compiling HTTP_demo.c...
+compiling Net_Config.c...
+custom translating Web.inp...
+Custom: C:\Keil\ARM\bin\fcarm @WEBSERVER\Web\Web.inp
+FCARM FILE CONVERTER V2.31
+Completed 5 File(s), Ratio 81%
+compiling Web.c...
+compiling caramels.c...
+compiling GAMES.c...
+GAMES\GAMES.c(163): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(165): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(240): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(244): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(321): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(324): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(309): warning:  #177-D: variable "j" was declared but never referenced
+GAMES\GAMES.c(645): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+GAMES\GAMES.c(645): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(651): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(735): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(907): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(624): warning:  #177-D: variable "position" was declared but never referenced
+compiling OV7670_detect_games.c...
+GAMES\OV7670_detect_games.c(102): warning:  #223-D: function "abs" declared implicitly
+compiling sounds.c...
+GAMES\sounds.c(276): warning:  #1-D: last line of file ends without a newline
+compiling funciones_servos.c...
+SERVOS\funciones_servos.c(45): warning:  #61-D: integer operation result is out of range
+SERVOS\funciones_servos.c(45): warning:  #68-D: integer conversion resulted in a change of sign
+SERVOS\funciones_servos.c(47): warning:  #61-D: integer operation result is out of range
+SERVOS\funciones_servos.c(49): warning:  #61-D: integer operation result is out of range
+SERVOS\funciones_servos.c(49): warning:  #68-D: integer conversion resulted in a change of sign
+compiling Inicio_servos.c...
+compiling interrupciones_servos.c...
+linking...
+Program Size: Code=100362 RO-data=28606 RW-data=732 ZI-data=30980  
+FromELF: creating hex file...
+"pruebas.axf" - 0 Error(s), 107 Warning(s).
+Build target 'Target 1'
+compiling system_LPC17xx.c...
+assembling startup_LPC17xx.s...
+compiling main.c...
+main.c(26): warning:  #177-D: variable "j" was declared but never referenced
+compiling AsciiLib.c...
+compiling GLCD.c...
+GLCD\GLCD.c(219): warning:  #177-D: function "LCD_ReadReg" was declared but never referenced
+compiling TouchPanel.c...
+Touch_Pannel\TouchPanel.c(349): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+Touch_Pannel\TouchPanel.c(480): warning:  #223-D: function "abs" declared implicitly
+Touch_Pannel\TouchPanel.c(483): warning:  #223-D: function "abs" declared implicitly
+Touch_Pannel\TouchPanel.c(754): warning:  #177-D: variable "i" was declared but never referenced
+Touch_Pannel\TouchPanel.c(807): warning:  #223-D: function "DMA_DAC_audio_Channel_Init" declared implicitly
+compiling lpc17xx_gpio.c...
+compiling lpc17xx_libcfg_default.c...
+compiling lpc17xx_pinsel.c...
+compiling lpc17xx_clkpwr.c...
+compiling lpc17xx_ssp.c...
+compiling I2C.c...
+compiling OV7670.c...
+OV7670\OV7670.c(347): warning:  #223-D: function "getOV7670_RGBgain" declared implicitly
+OV7670\OV7670.c(349): warning:  #223-D: function "getOV7670_BriConLum" declared implicitly
+compiling OV7670_read.c...
+OV7670\OV7670_read.c(306): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling OV7670_read2.c...
+OV7670\OV7670_read2.c(270): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+OV7670\OV7670_read2.c(274): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+OV7670\OV7670_read2.c(277): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling OV7670_detect.c...
+OV7670\OV7670_detect.c(99): warning:  #223-D: function "abs" declared implicitly
+OV7670\OV7670_detect.c(569): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+OV7670\OV7670_detect.c(585): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+OV7670\OV7670_detect.c(589): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+OV7670\OV7670_detect.c(694): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling OV7670_detect2.c...
+OV7670\OV7670_detect2.c(195): warning:  #223-D: function "abs" declared implicitly
+OV7670\OV7670_detect2.c(663): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+OV7670\OV7670_detect2.c(680): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+OV7670\OV7670_detect2.c(684): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling calibration.c...
+OV7670\calibration.c(425): warning:  #186-D: pointless comparison of unsigned integer with zero
+compiling OV7670_photo.c...
+OV7670\OV7670_photo.c(230): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling uart.c...
+UART\uart.c(203): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(210): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(216): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(222): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(234): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(239): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(247): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(251): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(258): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(264): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(270): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(275): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(279): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(283): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(287): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(292): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(296): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(300): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(304): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(310): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(316): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(325): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(332): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(338): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(348): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(352): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(186): warning:  #177-D: variable "i" was declared but never referenced
+compiling UART_interrup.c...
+compiling Timer.c...
+compiling Timer_interrupt.c...
+compiling interrupciones.c...
+OV7670\interrupciones.c(18): warning:  #223-D: function "get_timer1" declared implicitly
+OV7670\interrupciones.c(32): warning:  #223-D: function "Detect_for_games" declared implicitly
+compiling herramientas.c...
+herramientas\herramientas.c(62): warning:  #940-D: missing return statement at end of non-void function "conversor_HexaS"
+compiling SRF04.c...
+compiling dac.c...
+DAC\dac.c(126): warning:  #1-D: last line of file ends without a newline
+compiling dma.c...
+compiling StateMachine.c...
+State_Machine\StateMachine.c(132): warning:  #1-D: last line of file ends without a newline
+compiling States.c...
+State_Machine\States.c(787): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(812): warning:  #223-D: function "getOV7670_BriConLum" declared implicitly
+State_Machine\States.c(872): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(955): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(981): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(1028): warning:  #223-D: function "getOV7670_RGBgain" declared implicitly
+State_Machine\States.c(1087): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(1181): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1185): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1189): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1193): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1197): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1201): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1205): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1209): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling EMAC_LPC17xx_100Mb.c...
+compiling HTTP_CGI.c...
+WEBSERVER\Configuration_files\HTTP_CGI.c(118): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(127): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(137): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(146): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(155): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(164): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(173): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(182): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(191): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(196): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(205): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(217): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(224): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(230): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(274): warning:  #177-D: variable "adv" was declared but never referenced
+WEBSERVER\Configuration_files\HTTP_CGI.c(60): warning:  #177-D: variable "P2" was declared but never referenced
+compiling HTTP_demo.c...
+compiling Net_Config.c...
+custom translating Web.inp...
+Custom: C:\Keil\ARM\bin\fcarm @WEBSERVER\Web\Web.inp
+FCARM FILE CONVERTER V2.31
+Completed 5 File(s), Ratio 81%
+compiling Web.c...
+compiling caramels.c...
+compiling GAMES.c...
+GAMES\GAMES.c(163): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(165): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(240): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(244): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(321): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(324): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(309): warning:  #177-D: variable "j" was declared but never referenced
+GAMES\GAMES.c(645): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+GAMES\GAMES.c(645): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(651): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(735): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(907): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(624): warning:  #177-D: variable "position" was declared but never referenced
+compiling OV7670_detect_games.c...
+GAMES\OV7670_detect_games.c(102): warning:  #223-D: function "abs" declared implicitly
+compiling sounds.c...
+GAMES\sounds.c(276): warning:  #1-D: last line of file ends without a newline
+compiling funciones_servos.c...
+SERVOS\funciones_servos.c(45): warning:  #61-D: integer operation result is out of range
+SERVOS\funciones_servos.c(45): warning:  #68-D: integer conversion resulted in a change of sign
+SERVOS\funciones_servos.c(47): warning:  #61-D: integer operation result is out of range
+SERVOS\funciones_servos.c(49): warning:  #61-D: integer operation result is out of range
+SERVOS\funciones_servos.c(49): warning:  #68-D: integer conversion resulted in a change of sign
+compiling Inicio_servos.c...
+compiling interrupciones_servos.c...
+linking...
+Program Size: Code=100386 RO-data=28606 RW-data=732 ZI-data=30980  
+FromELF: creating hex file...
+"pruebas.axf" - 0 Error(s), 107 Warning(s).
+Build target 'Target 1'
+compiling system_LPC17xx.c...
+assembling startup_LPC17xx.s...
+compiling main.c...
+main.c(26): warning:  #177-D: variable "j" was declared but never referenced
+compiling AsciiLib.c...
+compiling GLCD.c...
+GLCD\GLCD.c(219): warning:  #177-D: function "LCD_ReadReg" was declared but never referenced
+compiling TouchPanel.c...
+Touch_Pannel\TouchPanel.c(349): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+Touch_Pannel\TouchPanel.c(480): warning:  #223-D: function "abs" declared implicitly
+Touch_Pannel\TouchPanel.c(483): warning:  #223-D: function "abs" declared implicitly
+Touch_Pannel\TouchPanel.c(754): warning:  #177-D: variable "i" was declared but never referenced
+Touch_Pannel\TouchPanel.c(807): warning:  #223-D: function "DMA_DAC_audio_Channel_Init" declared implicitly
+compiling lpc17xx_gpio.c...
+compiling lpc17xx_libcfg_default.c...
+compiling lpc17xx_pinsel.c...
+compiling lpc17xx_clkpwr.c...
+compiling lpc17xx_ssp.c...
+compiling I2C.c...
+compiling OV7670.c...
+OV7670\OV7670.c(347): warning:  #223-D: function "getOV7670_RGBgain" declared implicitly
+OV7670\OV7670.c(349): warning:  #223-D: function "getOV7670_BriConLum" declared implicitly
+compiling OV7670_read.c...
+compiling OV7670_read2.c...
+OV7670\OV7670_read2.c(323): error: At end of source:  #67: expected a "}"
+compiling OV7670_detect.c...
+OV7670\OV7670_detect.c(99): warning:  #223-D: function "abs" declared implicitly
+OV7670\OV7670_detect.c(569): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+OV7670\OV7670_detect.c(695): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling OV7670_detect2.c...
+OV7670\OV7670_detect2.c(195): warning:  #223-D: function "abs" declared implicitly
+OV7670\OV7670_detect2.c(663): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling calibration.c...
+OV7670\calibration.c(425): warning:  #186-D: pointless comparison of unsigned integer with zero
+compiling OV7670_photo.c...
+OV7670\OV7670_photo.c(230): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling uart.c...
+UART\uart.c(203): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(210): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(216): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(222): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(234): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(239): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(247): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(251): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(258): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(264): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(270): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(275): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(279): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(283): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(287): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(292): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(296): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(300): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(304): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(310): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(316): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(325): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(332): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(338): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(348): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(352): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(186): warning:  #177-D: variable "i" was declared but never referenced
+compiling UART_interrup.c...
+compiling Timer.c...
+compiling Timer_interrupt.c...
+compiling interrupciones.c...
+OV7670\interrupciones.c(18): warning:  #223-D: function "get_timer1" declared implicitly
+OV7670\interrupciones.c(32): warning:  #223-D: function "Detect_for_games" declared implicitly
+compiling herramientas.c...
+herramientas\herramientas.c(62): warning:  #940-D: missing return statement at end of non-void function "conversor_HexaS"
+compiling SRF04.c...
+compiling dac.c...
+DAC\dac.c(126): warning:  #1-D: last line of file ends without a newline
+compiling dma.c...
+compiling StateMachine.c...
+State_Machine\StateMachine.c(132): warning:  #1-D: last line of file ends without a newline
+compiling States.c...
+State_Machine\States.c(787): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(812): warning:  #223-D: function "getOV7670_BriConLum" declared implicitly
+State_Machine\States.c(872): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(979): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(1003): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1031): warning:  #223-D: function "getOV7670_RGBgain" declared implicitly
+State_Machine\States.c(1090): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(1184): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1188): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1192): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1196): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1200): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1204): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1208): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1212): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling EMAC_LPC17xx_100Mb.c...
+compiling HTTP_CGI.c...
+WEBSERVER\Configuration_files\HTTP_CGI.c(118): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(127): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(137): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(146): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(155): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(164): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(173): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(182): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(191): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(196): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(205): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(217): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(224): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(230): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(274): warning:  #177-D: variable "adv" was declared but never referenced
+WEBSERVER\Configuration_files\HTTP_CGI.c(60): warning:  #177-D: variable "P2" was declared but never referenced
+compiling HTTP_demo.c...
+compiling Net_Config.c...
+custom translating Web.inp...
+Custom: C:\Keil\ARM\bin\fcarm @WEBSERVER\Web\Web.inp
+FCARM FILE CONVERTER V2.31
+Completed 5 File(s), Ratio 81%
+compiling Web.c...
+compiling caramels.c...
+compiling GAMES.c...
+GAMES\GAMES.c(163): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(165): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(240): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(244): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(321): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(324): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(309): warning:  #177-D: variable "j" was declared but never referenced
+GAMES\GAMES.c(645): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+GAMES\GAMES.c(645): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(651): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(735): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(907): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(624): warning:  #177-D: variable "position" was declared but never referenced
+compiling OV7670_detect_games.c...
+GAMES\OV7670_detect_games.c(102): warning:  #223-D: function "abs" declared implicitly
+compiling sounds.c...
+GAMES\sounds.c(276): warning:  #1-D: last line of file ends without a newline
+compiling funciones_servos.c...
+SERVOS\funciones_servos.c(45): warning:  #61-D: integer operation result is out of range
+SERVOS\funciones_servos.c(45): warning:  #68-D: integer conversion resulted in a change of sign
+SERVOS\funciones_servos.c(47): warning:  #61-D: integer operation result is out of range
+SERVOS\funciones_servos.c(49): warning:  #61-D: integer operation result is out of range
+SERVOS\funciones_servos.c(49): warning:  #68-D: integer conversion resulted in a change of sign
+compiling Inicio_servos.c...
+compiling interrupciones_servos.c...
+Target not created
+Build target 'Target 1'
+compiling system_LPC17xx.c...
+assembling startup_LPC17xx.s...
+compiling main.c...
+main.c(26): warning:  #177-D: variable "j" was declared but never referenced
+compiling AsciiLib.c...
+compiling GLCD.c...
+GLCD\GLCD.c(219): warning:  #177-D: function "LCD_ReadReg" was declared but never referenced
+compiling TouchPanel.c...
+Touch_Pannel\TouchPanel.c(349): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+Touch_Pannel\TouchPanel.c(480): warning:  #223-D: function "abs" declared implicitly
+Touch_Pannel\TouchPanel.c(483): warning:  #223-D: function "abs" declared implicitly
+Touch_Pannel\TouchPanel.c(754): warning:  #177-D: variable "i" was declared but never referenced
+Touch_Pannel\TouchPanel.c(807): warning:  #223-D: function "DMA_DAC_audio_Channel_Init" declared implicitly
+compiling lpc17xx_gpio.c...
+compiling lpc17xx_libcfg_default.c...
+compiling lpc17xx_pinsel.c...
+compiling lpc17xx_clkpwr.c...
+compiling lpc17xx_ssp.c...
+compiling I2C.c...
+compiling OV7670.c...
+OV7670\OV7670.c(347): warning:  #223-D: function "getOV7670_RGBgain" declared implicitly
+OV7670\OV7670.c(349): warning:  #223-D: function "getOV7670_BriConLum" declared implicitly
+compiling OV7670_read.c...
+compiling OV7670_read2.c...
+compiling OV7670_detect.c...
+OV7670\OV7670_detect.c(99): warning:  #223-D: function "abs" declared implicitly
+OV7670\OV7670_detect.c(569): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+OV7670\OV7670_detect.c(695): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling OV7670_detect2.c...
+OV7670\OV7670_detect2.c(195): warning:  #223-D: function "abs" declared implicitly
+OV7670\OV7670_detect2.c(663): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling calibration.c...
+OV7670\calibration.c(425): warning:  #186-D: pointless comparison of unsigned integer with zero
+compiling OV7670_photo.c...
+OV7670\OV7670_photo.c(230): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling uart.c...
+UART\uart.c(203): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(210): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(216): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(222): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(234): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(239): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(247): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(251): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(258): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(264): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(270): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(275): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(279): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(283): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(287): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(292): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(296): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(300): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(304): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(310): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(316): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(325): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(332): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(338): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(348): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(352): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(186): warning:  #177-D: variable "i" was declared but never referenced
+compiling UART_interrup.c...
+compiling Timer.c...
+compiling Timer_interrupt.c...
+compiling interrupciones.c...
+OV7670\interrupciones.c(18): warning:  #223-D: function "get_timer1" declared implicitly
+OV7670\interrupciones.c(32): warning:  #223-D: function "Detect_for_games" declared implicitly
+compiling herramientas.c...
+herramientas\herramientas.c(62): warning:  #940-D: missing return statement at end of non-void function "conversor_HexaS"
+compiling SRF04.c...
+compiling dac.c...
+DAC\dac.c(126): warning:  #1-D: last line of file ends without a newline
+compiling dma.c...
+compiling StateMachine.c...
+State_Machine\StateMachine.c(132): warning:  #1-D: last line of file ends without a newline
+compiling States.c...
+State_Machine\States.c(787): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(812): warning:  #223-D: function "getOV7670_BriConLum" declared implicitly
+State_Machine\States.c(872): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(979): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(1003): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1031): warning:  #223-D: function "getOV7670_RGBgain" declared implicitly
+State_Machine\States.c(1090): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(1184): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1188): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1192): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1196): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1200): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1204): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1208): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1212): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling EMAC_LPC17xx_100Mb.c...
+compiling HTTP_CGI.c...
+WEBSERVER\Configuration_files\HTTP_CGI.c(118): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(127): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(137): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(146): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(155): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(164): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(173): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(182): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(191): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(196): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(205): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(217): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(224): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(230): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(274): warning:  #177-D: variable "adv" was declared but never referenced
+WEBSERVER\Configuration_files\HTTP_CGI.c(60): warning:  #177-D: variable "P2" was declared but never referenced
+compiling HTTP_demo.c...
+compiling Net_Config.c...
+custom translating Web.inp...
+Custom: C:\Keil\ARM\bin\fcarm @WEBSERVER\Web\Web.inp
+FCARM FILE CONVERTER V2.31
+Completed 5 File(s), Ratio 81%
+compiling Web.c...
+compiling caramels.c...
+compiling GAMES.c...
+GAMES\GAMES.c(163): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(165): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(240): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(244): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(321): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(324): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(309): warning:  #177-D: variable "j" was declared but never referenced
+GAMES\GAMES.c(645): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+GAMES\GAMES.c(645): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(651): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(735): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(907): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(624): warning:  #177-D: variable "position" was declared but never referenced
+compiling OV7670_detect_games.c...
+GAMES\OV7670_detect_games.c(102): warning:  #223-D: function "abs" declared implicitly
+compiling sounds.c...
+GAMES\sounds.c(276): warning:  #1-D: last line of file ends without a newline
+compiling funciones_servos.c...
+SERVOS\funciones_servos.c(45): warning:  #61-D: integer operation result is out of range
+SERVOS\funciones_servos.c(45): warning:  #68-D: integer conversion resulted in a change of sign
+SERVOS\funciones_servos.c(47): warning:  #61-D: integer operation result is out of range
+SERVOS\funciones_servos.c(49): warning:  #61-D: integer operation result is out of range
+SERVOS\funciones_servos.c(49): warning:  #68-D: integer conversion resulted in a change of sign
+compiling Inicio_servos.c...
+compiling interrupciones_servos.c...
+linking...
+Program Size: Code=100078 RO-data=28610 RW-data=732 ZI-data=30980  
+FromELF: creating hex file...
+"pruebas.axf" - 0 Error(s), 99 Warning(s).
+Build target 'Target 1'
+compiling system_LPC17xx.c...
+assembling startup_LPC17xx.s...
+compiling main.c...
+main.c(26): warning:  #177-D: variable "j" was declared but never referenced
+compiling AsciiLib.c...
+compiling GLCD.c...
+GLCD\GLCD.c(219): warning:  #177-D: function "LCD_ReadReg" was declared but never referenced
+compiling TouchPanel.c...
+Touch_Pannel\TouchPanel.c(349): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+Touch_Pannel\TouchPanel.c(480): warning:  #223-D: function "abs" declared implicitly
+Touch_Pannel\TouchPanel.c(483): warning:  #223-D: function "abs" declared implicitly
+Touch_Pannel\TouchPanel.c(754): warning:  #177-D: variable "i" was declared but never referenced
+Touch_Pannel\TouchPanel.c(807): warning:  #223-D: function "DMA_DAC_audio_Channel_Init" declared implicitly
+compiling lpc17xx_gpio.c...
+compiling lpc17xx_libcfg_default.c...
+compiling lpc17xx_pinsel.c...
+compiling lpc17xx_clkpwr.c...
+compiling lpc17xx_ssp.c...
+compiling I2C.c...
+compiling OV7670.c...
+OV7670\OV7670.c(347): warning:  #223-D: function "getOV7670_RGBgain" declared implicitly
+OV7670\OV7670.c(349): warning:  #223-D: function "getOV7670_BriConLum" declared implicitly
+compiling OV7670_read.c...
+compiling OV7670_read2.c...
+compiling OV7670_detect.c...
+OV7670\OV7670_detect.c(99): warning:  #223-D: function "abs" declared implicitly
+OV7670\OV7670_detect.c(697): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling OV7670_detect2.c...
+OV7670\OV7670_detect2.c(195): warning:  #223-D: function "abs" declared implicitly
+OV7670\OV7670_detect2.c(663): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling calibration.c...
+OV7670\calibration.c(425): warning:  #186-D: pointless comparison of unsigned integer with zero
+compiling OV7670_photo.c...
+OV7670\OV7670_photo.c(230): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling uart.c...
+UART\uart.c(203): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(210): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(216): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(222): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(234): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(239): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(247): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(251): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(258): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(264): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(270): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(275): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(279): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(283): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(287): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(292): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(296): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(300): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(304): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(310): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(316): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(325): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(332): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(338): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(348): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(352): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(186): warning:  #177-D: variable "i" was declared but never referenced
+compiling UART_interrup.c...
+compiling Timer.c...
+compiling Timer_interrupt.c...
+compiling interrupciones.c...
+OV7670\interrupciones.c(18): warning:  #223-D: function "get_timer1" declared implicitly
+OV7670\interrupciones.c(32): warning:  #223-D: function "Detect_for_games" declared implicitly
+compiling herramientas.c...
+herramientas\herramientas.c(62): warning:  #940-D: missing return statement at end of non-void function "conversor_HexaS"
+compiling SRF04.c...
+compiling dac.c...
+DAC\dac.c(126): warning:  #1-D: last line of file ends without a newline
+compiling dma.c...
+compiling StateMachine.c...
+State_Machine\StateMachine.c(132): warning:  #1-D: last line of file ends without a newline
+compiling States.c...
+State_Machine\States.c(787): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(812): warning:  #223-D: function "getOV7670_BriConLum" declared implicitly
+State_Machine\States.c(872): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(979): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(1003): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1031): warning:  #223-D: function "getOV7670_RGBgain" declared implicitly
+State_Machine\States.c(1090): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(1184): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1188): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1192): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1196): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1200): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1204): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1208): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1212): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling EMAC_LPC17xx_100Mb.c...
+compiling HTTP_CGI.c...
+WEBSERVER\Configuration_files\HTTP_CGI.c(118): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(127): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(137): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(146): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(155): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(164): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(173): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(182): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(191): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(196): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(205): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(217): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(224): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(230): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(274): warning:  #177-D: variable "adv" was declared but never referenced
+WEBSERVER\Configuration_files\HTTP_CGI.c(60): warning:  #177-D: variable "P2" was declared but never referenced
+compiling HTTP_demo.c...
+compiling Net_Config.c...
+custom translating Web.inp...
+Custom: C:\Keil\ARM\bin\fcarm @WEBSERVER\Web\Web.inp
+FCARM FILE CONVERTER V2.31
+Completed 5 File(s), Ratio 81%
+compiling Web.c...
+compiling caramels.c...
+compiling GAMES.c...
+GAMES\GAMES.c(163): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(165): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(240): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(244): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(321): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(324): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(309): warning:  #177-D: variable "j" was declared but never referenced
+GAMES\GAMES.c(645): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+GAMES\GAMES.c(645): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(651): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(735): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(907): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(624): warning:  #177-D: variable "position" was declared but never referenced
+compiling OV7670_detect_games.c...
+GAMES\OV7670_detect_games.c(102): warning:  #223-D: function "abs" declared implicitly
+compiling sounds.c...
+GAMES\sounds.c(276): warning:  #1-D: last line of file ends without a newline
+compiling funciones_servos.c...
+SERVOS\funciones_servos.c(45): warning:  #61-D: integer operation result is out of range
+SERVOS\funciones_servos.c(45): warning:  #68-D: integer conversion resulted in a change of sign
+SERVOS\funciones_servos.c(47): warning:  #61-D: integer operation result is out of range
+SERVOS\funciones_servos.c(49): warning:  #61-D: integer operation result is out of range
+SERVOS\funciones_servos.c(49): warning:  #68-D: integer conversion resulted in a change of sign
+compiling Inicio_servos.c...
+compiling interrupciones_servos.c...
+linking...
+Program Size: Code=100038 RO-data=28610 RW-data=732 ZI-data=30980  
+FromELF: creating hex file...
+"pruebas.axf" - 0 Error(s), 98 Warning(s).
+Build target 'Target 1'
+compiling system_LPC17xx.c...
+assembling startup_LPC17xx.s...
+compiling main.c...
+main.c(26): warning:  #177-D: variable "j" was declared but never referenced
+compiling AsciiLib.c...
+compiling GLCD.c...
+GLCD\GLCD.c(219): warning:  #177-D: function "LCD_ReadReg" was declared but never referenced
+compiling TouchPanel.c...
+Touch_Pannel\TouchPanel.c(349): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+Touch_Pannel\TouchPanel.c(480): warning:  #223-D: function "abs" declared implicitly
+Touch_Pannel\TouchPanel.c(483): warning:  #223-D: function "abs" declared implicitly
+Touch_Pannel\TouchPanel.c(754): warning:  #177-D: variable "i" was declared but never referenced
+Touch_Pannel\TouchPanel.c(807): warning:  #223-D: function "DMA_DAC_audio_Channel_Init" declared implicitly
+compiling lpc17xx_gpio.c...
+compiling lpc17xx_libcfg_default.c...
+compiling lpc17xx_pinsel.c...
+compiling lpc17xx_clkpwr.c...
+compiling lpc17xx_ssp.c...
+compiling I2C.c...
+compiling OV7670.c...
+OV7670\OV7670.c(347): warning:  #223-D: function "getOV7670_RGBgain" declared implicitly
+OV7670\OV7670.c(349): warning:  #223-D: function "getOV7670_BriConLum" declared implicitly
+compiling OV7670_read.c...
+compiling OV7670_read2.c...
+compiling OV7670_detect.c...
+OV7670\OV7670_detect.c(99): warning:  #223-D: function "abs" declared implicitly
+OV7670\OV7670_detect.c(697): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling OV7670_detect2.c...
+OV7670\OV7670_detect2.c(195): warning:  #223-D: function "abs" declared implicitly
+OV7670\OV7670_detect2.c(663): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling calibration.c...
+OV7670\calibration.c(425): warning:  #186-D: pointless comparison of unsigned integer with zero
+compiling OV7670_photo.c...
+OV7670\OV7670_photo.c(230): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling uart.c...
+UART\uart.c(203): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(210): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(216): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(222): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(234): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(239): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(247): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(251): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(258): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(264): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(270): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(275): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(279): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(283): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(287): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(292): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(296): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(300): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(304): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(310): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(316): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(325): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(332): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(338): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(348): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(352): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(186): warning:  #177-D: variable "i" was declared but never referenced
+compiling UART_interrup.c...
+compiling Timer.c...
+compiling Timer_interrupt.c...
+compiling interrupciones.c...
+OV7670\interrupciones.c(18): warning:  #223-D: function "get_timer1" declared implicitly
+OV7670\interrupciones.c(32): warning:  #223-D: function "Detect_for_games" declared implicitly
+compiling herramientas.c...
+herramientas\herramientas.c(62): warning:  #940-D: missing return statement at end of non-void function "conversor_HexaS"
+compiling SRF04.c...
+compiling dac.c...
+DAC\dac.c(126): warning:  #1-D: last line of file ends without a newline
+compiling dma.c...
+compiling StateMachine.c...
+State_Machine\StateMachine.c(132): warning:  #1-D: last line of file ends without a newline
+compiling States.c...
+State_Machine\States.c(787): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(812): warning:  #223-D: function "getOV7670_BriConLum" declared implicitly
+State_Machine\States.c(872): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(979): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(1003): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1031): warning:  #223-D: function "getOV7670_RGBgain" declared implicitly
+State_Machine\States.c(1090): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(1184): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1188): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1192): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1196): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1200): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1204): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1208): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1212): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling EMAC_LPC17xx_100Mb.c...
+compiling HTTP_CGI.c...
+WEBSERVER\Configuration_files\HTTP_CGI.c(118): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(127): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(137): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(146): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(155): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(164): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(173): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(182): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(191): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(196): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(205): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(217): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(224): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(230): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(274): warning:  #177-D: variable "adv" was declared but never referenced
+WEBSERVER\Configuration_files\HTTP_CGI.c(60): warning:  #177-D: variable "P2" was declared but never referenced
+compiling HTTP_demo.c...
+compiling Net_Config.c...
+custom translating Web.inp...
+Custom: C:\Keil\ARM\bin\fcarm @WEBSERVER\Web\Web.inp
+FCARM FILE CONVERTER V2.31
+Completed 5 File(s), Ratio 81%
+compiling Web.c...
+compiling caramels.c...
+compiling GAMES.c...
+GAMES\GAMES.c(163): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(165): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(240): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(244): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(321): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(324): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(309): warning:  #177-D: variable "j" was declared but never referenced
+GAMES\GAMES.c(645): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+GAMES\GAMES.c(645): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(651): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(735): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(907): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(624): warning:  #177-D: variable "position" was declared but never referenced
+compiling OV7670_detect_games.c...
+GAMES\OV7670_detect_games.c(102): warning:  #223-D: function "abs" declared implicitly
+compiling sounds.c...
+GAMES\sounds.c(276): warning:  #1-D: last line of file ends without a newline
+compiling funciones_servos.c...
+SERVOS\funciones_servos.c(45): warning:  #61-D: integer operation result is out of range
+SERVOS\funciones_servos.c(45): warning:  #68-D: integer conversion resulted in a change of sign
+SERVOS\funciones_servos.c(47): warning:  #61-D: integer operation result is out of range
+SERVOS\funciones_servos.c(49): warning:  #61-D: integer operation result is out of range
+SERVOS\funciones_servos.c(49): warning:  #68-D: integer conversion resulted in a change of sign
+compiling Inicio_servos.c...
+compiling interrupciones_servos.c...
+linking...
+Program Size: Code=100038 RO-data=28610 RW-data=732 ZI-data=30980  
+FromELF: creating hex file...
+"pruebas.axf" - 0 Error(s), 98 Warning(s).
+Build target 'Target 1'
+compiling system_LPC17xx.c...
+assembling startup_LPC17xx.s...
+compiling main.c...
+main.c(26): warning:  #177-D: variable "j" was declared but never referenced
+compiling AsciiLib.c...
+compiling GLCD.c...
+GLCD\GLCD.c(219): warning:  #177-D: function "LCD_ReadReg" was declared but never referenced
+compiling TouchPanel.c...
+Touch_Pannel\TouchPanel.c(349): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+Touch_Pannel\TouchPanel.c(480): warning:  #223-D: function "abs" declared implicitly
+Touch_Pannel\TouchPanel.c(483): warning:  #223-D: function "abs" declared implicitly
+Touch_Pannel\TouchPanel.c(754): warning:  #177-D: variable "i" was declared but never referenced
+Touch_Pannel\TouchPanel.c(807): warning:  #223-D: function "DMA_DAC_audio_Channel_Init" declared implicitly
+compiling lpc17xx_gpio.c...
+compiling lpc17xx_libcfg_default.c...
+compiling lpc17xx_pinsel.c...
+compiling lpc17xx_clkpwr.c...
+compiling lpc17xx_ssp.c...
+compiling I2C.c...
+compiling OV7670.c...
+OV7670\OV7670.c(347): warning:  #223-D: function "getOV7670_RGBgain" declared implicitly
+OV7670\OV7670.c(349): warning:  #223-D: function "getOV7670_BriConLum" declared implicitly
+compiling OV7670_read.c...
+compiling OV7670_read2.c...
+compiling OV7670_detect.c...
+OV7670\OV7670_detect.c(99): warning:  #223-D: function "abs" declared implicitly
+OV7670\OV7670_detect.c(697): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling OV7670_detect2.c...
+OV7670\OV7670_detect2.c(195): warning:  #223-D: function "abs" declared implicitly
+OV7670\OV7670_detect2.c(663): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling calibration.c...
+OV7670\calibration.c(425): warning:  #186-D: pointless comparison of unsigned integer with zero
+compiling OV7670_photo.c...
+OV7670\OV7670_photo.c(230): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling uart.c...
+UART\uart.c(203): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(210): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(216): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(222): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(234): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(239): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(247): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(251): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(258): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(264): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(270): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(275): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(279): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(283): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(287): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(292): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(296): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(300): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(304): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(310): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(316): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(325): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(332): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(338): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(348): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(352): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(186): warning:  #177-D: variable "i" was declared but never referenced
+compiling UART_interrup.c...
+compiling Timer.c...
+compiling Timer_interrupt.c...
+compiling interrupciones.c...
+OV7670\interrupciones.c(18): warning:  #223-D: function "get_timer1" declared implicitly
+OV7670\interrupciones.c(32): warning:  #223-D: function "Detect_for_games" declared implicitly
+compiling herramientas.c...
+herramientas\herramientas.c(62): warning:  #940-D: missing return statement at end of non-void function "conversor_HexaS"
+compiling SRF04.c...
+compiling dac.c...
+DAC\dac.c(126): warning:  #1-D: last line of file ends without a newline
+compiling dma.c...
+compiling StateMachine.c...
+State_Machine\StateMachine.c(132): warning:  #1-D: last line of file ends without a newline
+compiling States.c...
+State_Machine\States.c(787): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(812): warning:  #223-D: function "getOV7670_BriConLum" declared implicitly
+State_Machine\States.c(872): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(979): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(1003): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1031): warning:  #223-D: function "getOV7670_RGBgain" declared implicitly
+State_Machine\States.c(1090): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(1184): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1188): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1192): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1196): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1200): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1204): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1208): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1212): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling EMAC_LPC17xx_100Mb.c...
+compiling HTTP_CGI.c...
+WEBSERVER\Configuration_files\HTTP_CGI.c(118): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(127): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(137): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(146): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(155): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(164): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(173): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(182): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(191): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(196): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(205): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(217): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(224): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(230): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(274): warning:  #177-D: variable "adv" was declared but never referenced
+WEBSERVER\Configuration_files\HTTP_CGI.c(60): warning:  #177-D: variable "P2" was declared but never referenced
+compiling HTTP_demo.c...
+compiling Net_Config.c...
+custom translating Web.inp...
+Custom: C:\Keil\ARM\bin\fcarm @WEBSERVER\Web\Web.inp
+FCARM FILE CONVERTER V2.31
+Completed 5 File(s), Ratio 81%
+compiling Web.c...
+compiling caramels.c...
+compiling GAMES.c...
+GAMES\GAMES.c(163): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(165): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(240): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(244): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(321): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(324): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(309): warning:  #177-D: variable "j" was declared but never referenced
+GAMES\GAMES.c(645): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+GAMES\GAMES.c(645): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(651): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(735): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(907): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(624): warning:  #177-D: variable "position" was declared but never referenced
+compiling OV7670_detect_games.c...
+GAMES\OV7670_detect_games.c(102): warning:  #223-D: function "abs" declared implicitly
+compiling sounds.c...
+GAMES\sounds.c(276): warning:  #1-D: last line of file ends without a newline
+compiling funciones_servos.c...
+SERVOS\funciones_servos.c(45): warning:  #61-D: integer operation result is out of range
+SERVOS\funciones_servos.c(45): warning:  #68-D: integer conversion resulted in a change of sign
+SERVOS\funciones_servos.c(47): warning:  #61-D: integer operation result is out of range
+SERVOS\funciones_servos.c(49): warning:  #61-D: integer operation result is out of range
+SERVOS\funciones_servos.c(49): warning:  #68-D: integer conversion resulted in a change of sign
+compiling Inicio_servos.c...
+compiling interrupciones_servos.c...
+linking...
+Program Size: Code=100038 RO-data=28610 RW-data=732 ZI-data=30980  
+FromELF: creating hex file...
+"pruebas.axf" - 0 Error(s), 98 Warning(s).
+Build target 'Target 1'
+compiling system_LPC17xx.c...
+assembling startup_LPC17xx.s...
+compiling main.c...
+main.c(26): warning:  #177-D: variable "j" was declared but never referenced
+compiling AsciiLib.c...
+compiling GLCD.c...
+GLCD\GLCD.c(219): warning:  #177-D: function "LCD_ReadReg" was declared but never referenced
+compiling TouchPanel.c...
+Touch_Pannel\TouchPanel.c(349): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+Touch_Pannel\TouchPanel.c(480): warning:  #223-D: function "abs" declared implicitly
+Touch_Pannel\TouchPanel.c(483): warning:  #223-D: function "abs" declared implicitly
+Touch_Pannel\TouchPanel.c(754): warning:  #177-D: variable "i" was declared but never referenced
+Touch_Pannel\TouchPanel.c(807): warning:  #223-D: function "DMA_DAC_audio_Channel_Init" declared implicitly
+compiling lpc17xx_gpio.c...
+compiling lpc17xx_libcfg_default.c...
+compiling lpc17xx_pinsel.c...
+compiling lpc17xx_clkpwr.c...
+compiling lpc17xx_ssp.c...
+compiling I2C.c...
+compiling OV7670.c...
+OV7670\OV7670.c(347): warning:  #223-D: function "getOV7670_RGBgain" declared implicitly
+OV7670\OV7670.c(349): warning:  #223-D: function "getOV7670_BriConLum" declared implicitly
+OV7670\OV7670.c(351): warning:  #223-D: function "mirror" declared implicitly
+compiling OV7670_read.c...
+compiling OV7670_read2.c...
+compiling OV7670_detect.c...
+OV7670\OV7670_detect.c(99): warning:  #223-D: function "abs" declared implicitly
+OV7670\OV7670_detect.c(697): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling OV7670_detect2.c...
+OV7670\OV7670_detect2.c(195): warning:  #223-D: function "abs" declared implicitly
+OV7670\OV7670_detect2.c(663): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling calibration.c...
+OV7670\calibration.c(425): warning:  #186-D: pointless comparison of unsigned integer with zero
+compiling OV7670_photo.c...
+OV7670\OV7670_photo.c(230): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling uart.c...
+UART\uart.c(203): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(210): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(216): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(222): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(234): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(239): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(247): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(251): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(258): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(264): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(270): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(275): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(279): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(283): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(287): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(292): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(296): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(300): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(304): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(310): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(316): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(325): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(332): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(338): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(348): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(352): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(186): warning:  #177-D: variable "i" was declared but never referenced
+compiling UART_interrup.c...
+compiling Timer.c...
+compiling Timer_interrupt.c...
+compiling interrupciones.c...
+OV7670\interrupciones.c(18): warning:  #223-D: function "get_timer1" declared implicitly
+OV7670\interrupciones.c(32): warning:  #223-D: function "Detect_for_games" declared implicitly
+compiling herramientas.c...
+herramientas\herramientas.c(62): warning:  #940-D: missing return statement at end of non-void function "conversor_HexaS"
+compiling SRF04.c...
+compiling dac.c...
+DAC\dac.c(126): warning:  #1-D: last line of file ends without a newline
+compiling dma.c...
+compiling StateMachine.c...
+State_Machine\StateMachine.c(132): warning:  #1-D: last line of file ends without a newline
+compiling States.c...
+State_Machine\States.c(787): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(812): warning:  #223-D: function "getOV7670_BriConLum" declared implicitly
+State_Machine\States.c(872): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(979): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(1003): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1031): warning:  #223-D: function "getOV7670_RGBgain" declared implicitly
+State_Machine\States.c(1090): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(1184): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1188): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1192): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1196): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1200): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1204): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1208): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1212): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling EMAC_LPC17xx_100Mb.c...
+compiling HTTP_CGI.c...
+WEBSERVER\Configuration_files\HTTP_CGI.c(118): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(127): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(137): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(146): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(155): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(164): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(173): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(182): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(191): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(196): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(205): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(217): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(224): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(230): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(274): warning:  #177-D: variable "adv" was declared but never referenced
+WEBSERVER\Configuration_files\HTTP_CGI.c(60): warning:  #177-D: variable "P2" was declared but never referenced
+compiling HTTP_demo.c...
+compiling Net_Config.c...
+custom translating Web.inp...
+Custom: C:\Keil\ARM\bin\fcarm @WEBSERVER\Web\Web.inp
+FCARM FILE CONVERTER V2.31
+Completed 5 File(s), Ratio 81%
+compiling Web.c...
+compiling caramels.c...
+compiling GAMES.c...
+GAMES\GAMES.c(163): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(165): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(240): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(244): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(321): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(324): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(309): warning:  #177-D: variable "j" was declared but never referenced
+GAMES\GAMES.c(645): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+GAMES\GAMES.c(645): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(651): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(735): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(907): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(624): warning:  #177-D: variable "position" was declared but never referenced
+compiling OV7670_detect_games.c...
+GAMES\OV7670_detect_games.c(102): warning:  #223-D: function "abs" declared implicitly
+compiling sounds.c...
+GAMES\sounds.c(276): warning:  #1-D: last line of file ends without a newline
+compiling funciones_servos.c...
+SERVOS\funciones_servos.c(45): warning:  #61-D: integer operation result is out of range
+SERVOS\funciones_servos.c(45): warning:  #68-D: integer conversion resulted in a change of sign
+SERVOS\funciones_servos.c(47): warning:  #61-D: integer operation result is out of range
+SERVOS\funciones_servos.c(49): warning:  #61-D: integer operation result is out of range
+SERVOS\funciones_servos.c(49): warning:  #68-D: integer conversion resulted in a change of sign
+compiling Inicio_servos.c...
+compiling interrupciones_servos.c...
+linking...
+pruebas.axf: Error: L6218E: Undefined symbol mirror (referred from ov7670.o).
+Target not created
+Build target 'Target 1'
+compiling system_LPC17xx.c...
+assembling startup_LPC17xx.s...
+compiling main.c...
+main.c(26): warning:  #177-D: variable "j" was declared but never referenced
+compiling AsciiLib.c...
+compiling GLCD.c...
+GLCD\GLCD.c(219): warning:  #177-D: function "LCD_ReadReg" was declared but never referenced
+compiling TouchPanel.c...
+Touch_Pannel\TouchPanel.c(349): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+Touch_Pannel\TouchPanel.c(480): warning:  #223-D: function "abs" declared implicitly
+Touch_Pannel\TouchPanel.c(483): warning:  #223-D: function "abs" declared implicitly
+Touch_Pannel\TouchPanel.c(754): warning:  #177-D: variable "i" was declared but never referenced
+Touch_Pannel\TouchPanel.c(807): warning:  #223-D: function "DMA_DAC_audio_Channel_Init" declared implicitly
+compiling lpc17xx_gpio.c...
+compiling lpc17xx_libcfg_default.c...
+compiling lpc17xx_pinsel.c...
+compiling lpc17xx_clkpwr.c...
+compiling lpc17xx_ssp.c...
+compiling I2C.c...
+compiling OV7670.c...
+OV7670\OV7670.c(347): warning:  #223-D: function "getOV7670_RGBgain" declared implicitly
+OV7670\OV7670.c(349): warning:  #223-D: function "getOV7670_BriConLum" declared implicitly
+compiling OV7670_read.c...
+compiling OV7670_read2.c...
+compiling OV7670_detect.c...
+OV7670\OV7670_detect.c(99): warning:  #223-D: function "abs" declared implicitly
+OV7670\OV7670_detect.c(697): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling OV7670_detect2.c...
+OV7670\OV7670_detect2.c(195): warning:  #223-D: function "abs" declared implicitly
+OV7670\OV7670_detect2.c(663): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling calibration.c...
+OV7670\calibration.c(425): warning:  #186-D: pointless comparison of unsigned integer with zero
+compiling OV7670_photo.c...
+OV7670\OV7670_photo.c(230): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling uart.c...
+UART\uart.c(203): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(210): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(216): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(222): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(234): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(239): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(247): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(251): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(258): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(264): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(270): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(275): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(279): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(283): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(287): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(292): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(296): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(300): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(304): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(310): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(316): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(325): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(332): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(338): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(348): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(352): warning:  #223-D: function "conversor_SaI" declared implicitly
+UART\uart.c(186): warning:  #177-D: variable "i" was declared but never referenced
+compiling UART_interrup.c...
+compiling Timer.c...
+compiling Timer_interrupt.c...
+compiling interrupciones.c...
+OV7670\interrupciones.c(18): warning:  #223-D: function "get_timer1" declared implicitly
+OV7670\interrupciones.c(32): warning:  #223-D: function "Detect_for_games" declared implicitly
+compiling herramientas.c...
+herramientas\herramientas.c(62): warning:  #940-D: missing return statement at end of non-void function "conversor_HexaS"
+compiling SRF04.c...
+compiling dac.c...
+DAC\dac.c(126): warning:  #1-D: last line of file ends without a newline
+compiling dma.c...
+compiling StateMachine.c...
+State_Machine\StateMachine.c(132): warning:  #1-D: last line of file ends without a newline
+compiling States.c...
+State_Machine\States.c(787): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(812): warning:  #223-D: function "getOV7670_BriConLum" declared implicitly
+State_Machine\States.c(872): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(979): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(1003): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1031): warning:  #223-D: function "getOV7670_RGBgain" declared implicitly
+State_Machine\States.c(1090): warning:  #223-D: function "reset_OV7670" declared implicitly
+State_Machine\States.c(1184): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1188): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1192): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1196): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1200): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1204): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1208): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+State_Machine\States.c(1212): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+compiling EMAC_LPC17xx_100Mb.c...
+compiling HTTP_CGI.c...
+WEBSERVER\Configuration_files\HTTP_CGI.c(118): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(127): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(137): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(146): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(155): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(164): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(173): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(182): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(191): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(196): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(205): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(217): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(224): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(230): warning:  #167-D: argument of type "U8 *" is incompatible with parameter of type "char *"
+WEBSERVER\Configuration_files\HTTP_CGI.c(274): warning:  #177-D: variable "adv" was declared but never referenced
+WEBSERVER\Configuration_files\HTTP_CGI.c(60): warning:  #177-D: variable "P2" was declared but never referenced
+compiling HTTP_demo.c...
+compiling Net_Config.c...
+custom translating Web.inp...
+Custom: C:\Keil\ARM\bin\fcarm @WEBSERVER\Web\Web.inp
+FCARM FILE CONVERTER V2.31
+Completed 5 File(s), Ratio 81%
+compiling Web.c...
+compiling caramels.c...
+compiling GAMES.c...
+GAMES\GAMES.c(163): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(165): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(240): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(244): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(321): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(324): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(309): warning:  #177-D: variable "j" was declared but never referenced
+GAMES\GAMES.c(645): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+GAMES\GAMES.c(645): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(651): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+GAMES\GAMES.c(735): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(907): warning:  #223-D: function "abs" declared implicitly
+GAMES\GAMES.c(624): warning:  #177-D: variable "position" was declared but never referenced
+compiling OV7670_detect_games.c...
+GAMES\OV7670_detect_games.c(102): warning:  #223-D: function "abs" declared implicitly
+compiling sounds.c...
+GAMES\sounds.c(276): warning:  #1-D: last line of file ends without a newline
+compiling funciones_servos.c...
+SERVOS\funciones_servos.c(45): warning:  #61-D: integer operation result is out of range
+SERVOS\funciones_servos.c(45): warning:  #68-D: integer conversion resulted in a change of sign
+SERVOS\funciones_servos.c(47): warning:  #61-D: integer operation result is out of range
+SERVOS\funciones_servos.c(49): warning:  #61-D: integer operation result is out of range
+SERVOS\funciones_servos.c(49): warning:  #68-D: integer conversion resulted in a change of sign
+compiling Inicio_servos.c...
+compiling interrupciones_servos.c...
+linking...
+Program Size: Code=100034 RO-data=28606 RW-data=732 ZI-data=30980  
+FromELF: creating hex file...
+"pruebas.axf" - 0 Error(s), 98 Warning(s).

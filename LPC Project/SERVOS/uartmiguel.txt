@@ -1,0 +1,134 @@
+//UART MIGUEL
+
+	if (strcmp(buffer_rx[0],"izquierda") == 0){
+		 tx_cadena_UART0("moviendo \n");
+		 umbral_x = 0.9;
+
+	}
+	if (strcmp(buffer_rx[0],"derecha") == 0){
+		 tx_cadena_UART0("moviendo \n");
+		 umbral_x = 0.1;
+
+	}
+
+	if (strcmp(buffer_rx[0],"centrox") == 0){
+		  tx_cadena_UART0("moviendo \n");
+		 umbral_x = 0.50;
+
+	}
+
+ 	if (strcmp(buffer_rx[0],"arriba") == 0){
+		  tx_cadena_UART0("abajo \n");
+		 umbral_y = 0.9;
+
+	}
+
+	if (strcmp(buffer_rx[0],"abajo") == 0){
+		  tx_cadena_UART0("moviendo \n");
+		 umbral_y = 0.2;
+
+	}
+
+	if (strcmp(buffer_rx[0],"centroy") == 0){
+		  tx_cadena_UART0("moviendo \n");
+		  umbral_y = 0.50;
+	}
+	if (strcmp(buffer_rx[0],"seguimiento") == 0){
+		  tx_cadena_UART0("vamos loco!! \n");
+		  modo = TRACKING;
+	}
+	if (strcmp(buffer_rx[0],"manual") == 0){
+		  tx_cadena_UART0("set manual \n");
+		  modo = MANUAL;
+	}
+	////////////////////////////////////////////////////////////////////////////////////////////////
+	if (strcmp(buffer_rx[0],"prox+") == 0){
+		  cons_pro_x = cons_pro_x + 0.1;
+		  //sprintf(buf,"%f",cons_pro_x);
+		  tx_cadena_UART0("prox+");
+	}
+	if (strcmp(buffer_rx[0],"prox-") == 0){
+		  cons_pro_x = cons_pro_x - 0.1;
+		  //sprintf(buf,"%f",cons_pro_x);
+		  tx_cadena_UART0("prox-");
+	}
+	if (strcmp(buffer_rx[0],"proy+") == 0){
+		  cons_pro_y = cons_pro_y + 0.1;
+		  //sprintf(buf,"%f",cons_pro_y);
+		  tx_cadena_UART0("proy+");
+	}
+	if (strcmp(buffer_rx[0],"proy-") == 0){
+		  cons_pro_y = cons_pro_y - 0.1;
+		  //sprintf(buf,"%f",cons_pro_y);
+		  tx_cadena_UART0("proy-");
+	}
+	if (strcmp(buffer_rx[0],"difx+") == 0){
+		  cons_dif_x = cons_dif_x + 0.1;
+		  //sprintf(buf,"%f",cons_dif_x);
+		  tx_cadena_UART0("difx+");
+	}
+	if (strcmp(buffer_rx[0],"difx-") == 0){
+		  cons_dif_x = cons_dif_x - 0.1;
+		  //sprintf(buf,"%f",cons_dif_x);
+		  tx_cadena_UART0("difx-");
+	}
+	if (strcmp(buffer_rx[0],"dify+") == 0){
+		  cons_dif_y = cons_dif_y + 0.1;
+		  //sprintf(buf,"%f",cons_dif_y);
+		  tx_cadena_UART0("dify+");
+	}
+	if (strcmp(buffer_rx[0],"dify-") == 0){
+		  cons_dif_y = cons_dif_y - 0.1;
+		  //sprintf(buf,"%f",cons_dif_y);
+		  tx_cadena_UART0("dify-");
+	}
+	if (strcmp(buffer_rx[0],"umx+") == 0){
+		  umbral_x = umbral_x + 0.1;
+		  //sprintf(buf,"%f",umbral_x);
+		  tx_cadena_UART0("umx+");
+	}
+	if (strcmp(buffer_rx[0],"umy+") == 0){
+		  umbral_y = umbral_y + 0.1;
+		  //sprintf(buf,"%f",umbral_y);
+		  tx_cadena_UART0("umy+");
+	}
+	if (strcmp(buffer_rx[0],"umx-") == 0){
+		  umbral_x = umbral_x - 0.1;
+		  //sprintf(buf,"%f",umbral_x);
+		  tx_cadena_UART0("umx-");
+	}
+	if (strcmp(buffer_rx[0],"umy-") == 0){
+		  umbral_y = umbral_y - 0.1;
+		  //sprintf(buf,"%f",umbral_y);
+		  tx_cadena_UART0("umy-");
+	}
+	if (strcmp(buffer_rx[0],"inx+") == 0){
+		  cons_int_x = cons_int_x + 0.1;
+		  //sprintf(buf,"%f",umbral_x);
+		  tx_cadena_UART0("inx+");
+	}
+	if (strcmp(buffer_rx[0],"iny+") == 0){
+		  cons_int_y = cons_int_y + 0.1;
+		  //sprintf(buf,"%f",umbral_y);
+		  tx_cadena_UART0("iny+");
+	}
+	if (strcmp(buffer_rx[0],"inx-") == 0){
+		  cons_int_x = cons_int_x - 0.1;
+		  //sprintf(buf,"%f",umbral_x);
+		  tx_cadena_UART0("inx-");
+	}
+	if (strcmp(buffer_rx[0],"iny-") == 0){
+		  cons_int_y = cons_int_y - 0.1;
+		  //sprintf(buf,"%f",umbral_y);
+		  tx_cadena_UART0("iny-");
+	}
+	if (strcmp(buffer_rx[0],"inicio") == 0){
+		  cons_pro_x = 0.7;
+			cons_pro_y = 0.7;
+			cons_dif_x = 0.8;
+			cons_dif_y = 0.8;
+		  //sprintf(buf,"%f",umbral_y);
+		  tx_cadena_UART0("");
+	}
+
+	//FIN UART MIGUEL
